@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 ## .envの設定
 
 ## 修正前
@@ -30,4 +27,3 @@ uid=0(root) gid=0(root) groups=0(root),44(video),1000(docker)
 #raspi5側で実行
 xhost +local:docker
 ```
->>>>>>> f78f068 (correction)
