@@ -42,6 +42,7 @@ RUN apt-get update && \
     pip install --no-cache-dir opencv-contrib-python==4.6.0.66 && \
     echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
     rosdep update
+RUN apt-get install -y tree
 
 
 # ユーザーを作成＆sudo権限付与
